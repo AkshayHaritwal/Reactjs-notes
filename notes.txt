@@ -1,0 +1,59 @@
+Reactjs ke baare me jaane ke liye react.dev website pe jaa sakte hai 
+jsx ---> javascript extention syntax 
+react ko local environment me setup  karne ke liye visit kare vitejs.dev , then click on guide then scroll down and copy this code npm create vite@latest and paste in terminal then project name choose karenge then react then javascript 
+next hum cd karenge to basic-react-app folder and will run npm install in terminal
+next iss react app ko run karne ke liye command hai --->npm run dev   , then waha local link generate hoga usse browser me paste karke hum iss app ko dekh sakte 
+
+basic react app wale folder me jin files pe hum kaam karenge wo src folder me hai , inme bhi biggining me jitne bhi changes karenge wo App.jsx file me karenge , ab app.jsx file ki help se jo components hume page pe show ho rahe hai unki jagah apna kuuch display karwana hai to return and function ka complete code hata denge , then agar hum ab jo bhi display karwana chate hai usse return ke baad html tags me likh sakte hai 
+App.jsx sabse main file hoti hai isme hii hum baaki components ko add karwate hai , ab agar hum page ke upper koi title show karwana hai to uske liye sabse pahle jis naam ka hum function banayenge uss naam ki ek file create karenge example -----> hume title name se function banana hai to sabse pahle src me title.jsx naam se file create karenge then uss file me Title naam se function create karenge(function name first letter always capital) then uss function me return karwa denge jo bhi chiz hume webpage pe display karwani hai then isko hum title.jsx file ko export karenge iske liye command hai ---> export default Title (if we want to export single value) , for multiple export export{Title , Sum } iss tarah hum multiple function export karwa sakte hai , then in function ko App.jsx file me upper import karenge then App function me return karwa denge Title ko 
+
+jsx markup  --> return a single root element , close all the tags , camelCase most of the things 
+
+// agar hum jsx code me jaha bhi {} ko use kar lete hai waha hum pure javascript ka code likh sakte hai 
+
+format to structure components--------> sabse pahle individual components create karne hai , then unn components ko ek dusre component me combine karenge then usko hum export karwake app.jsx me import kar lenge then return 
+example --> hum product.jsx file me individual components create karenge then unko productTab.jsx me combine kar lenge then productTab file ko export karwake app.jsx me import karwa lenge then return karwa denge productTab
+
+// ab agar hume inn components ki styling karni hai to uske liye hume same name se sabhi components ke liye seperate css file banani hogi like agar hume product.jsx ke liye styling karni hai to new css file create karenge with name Product.css then isme styling iske baad iss css file ko Product.jsx me import kar lenge 
+
+// next hum ek activity karenge iske liye new file create karenge MsgBox naam se 
+
+// next hum react dev tools ko download karenge iske visit kare --> reactjs.org/link/react-devtools then jis bhi browser ke liye install karna hai uspe jaa sakte and then add extension 
+
+// then console windom ke upper components ka option show hoga yaha sabhi components show  ho jaayenge hum particular component pe click karke uske baare me information nikal sakte hai 
+
+// next hum ek cards ke activity karenge iske liye sabse pahle hum ek new file create karenge with name Card.jsx and Price.jsx in dono files ke code hum export karwake project.jsx me import kar lenge then project.jsx ko export karwake app.jsx me import karwake export karwa denge 
+
+// next hum click events ko handle karenge iske liye ek new file create karenge Button.jsx naam se 
+
+// next hum form me default behaviour ke baare me dekhenge iske liye ek new file create karenge Form.jsx naam se 
+
+// next hum baat karenge state ki iske liye new project create kar lenge iske liye sabse pahle npm create vite command run karenge terminal me then project name react-states , then react then javascript , then npm install then  npm run dev to run the project 
+
+// next hume jo webpage pe count wala option show ho raha hai wesa banane ke liye sabse pahle ek new file create karenge Counter.jsx naam se 
+
+// next hum ek like button create karenge iske liye sabse pahle ek new file create karenge LikeButton.jsx 
+
+//next hum ek new project create karenge with name react-object then npm install iske baad src me ek new file create karenge LudoBoard naam se 
+
+//next hum array ko update karke dekhenge iske liye ek new file create karenge Array.jsx naam se
+
+// next hum ek to do list create karenge iske liye sabse pahle ek new project create karke TodoList.jsx file banayenge 
+
+// isk baad hum ek new project create karenge lottery name se and insme ek new file create karenge Lottery.jsx naam se 
+
+// next hum ek new project create karenge form name se and isme ek file banayenge Form.jsx naam se 
+
+// next hum ek comments ke liye form create karenge iske liye ek new file banayenge CommentsForm.jsx
+
+// next hum ek new project create karenge useEffect naam se and isme hum ek file create karenge counter naam se 
+
+//next hum material ui ko use karenge iske liye iski official website pe jaa sakte hai material ui.com then get started then installation then npm link copy karenge uske baad hum ek new folder create karenge then new project create karenge then npm wala link paste kar denge
+//next hum font ka npm link install karenge then icon npm install 
+
+// next hum components wale section me jaake dekh sakte hai jis bhi type ka component hum chaiye ho , then agar hum koi bhi component use karna hai to sabse pahle usko open karo then expand  code pe click karo waha se hume component ko import karne wala code copy karke jaha component use karna hai waha paste kar denge then jis tarah ka component chaiye uska code copy karke return wale section me paste kar denge 
+
+// next hum weather app banayenge iske liye sabse pahle ek new file create karenge SearchBox.jsx naam se 
+// next hum material ui se input box and button  ko import karenge 
+
+// then hum open weather api search karenge ispe apna ek account create karenge jab hum account create karenge to humare liye api key generate ho jaayegi jinko hum use kar sakte hai , then hume iss link pe visit karna hai https://openweathermap.org/current then niche scroll karke geocoder api pe click karna hai uske baad city wala api link copy karke searchbox.jsx me paste kar denga hai 
